@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+ 
+  <div class="container" id="start-quiz">
+    <h1>Quiz</h1>
+    <p class="subtitle">Find out your real GOONING PERCENTAGE</p>
+    <button class="btn-primary" onclick="startQuiz()">Start Quiz</button>
+  </div>
+
+
+  <div class="container hidden" id="quiz-screen">
+    <div id="progress">Question <span id="currentQ"></span></div>
+    <div id="question">Question goes here</div>
+    <div id="options"></div>
+  </div>
+
+  <div class="container hidden" id="Result">
+    <h2>Your Result</h2>
+    <p class="subtitle">Based on your answers</p>
+    <div class="percentage-circle">
+      <span id="percentage">0%</span>
+    </div>
+    <p class="rank-label">Your rank</p>
+    <div class="rank-badge" id="rank">—</div>
+    <br>
+    <button class="btn-primary" onclick="restartQuiz()">Try Again</button>
+  </div>
+
+
+  <div class="container hidden" id="too-high-screen">
+    <div class="too-high-icon"></div>
+    <h2>Too High to Evaluate</h2>
+    <p class="subtitle">Your level is beyond calculation.<br>Please contact the chief assistant of THE SMAXKS THE KING.</p>
+    <button class="btn-primary" onclick="restartQuiz()">Try Again</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
