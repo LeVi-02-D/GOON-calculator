@@ -132,7 +132,7 @@ function FinalResult() {
   while (true) {
     attempts++;
 
-    const randomNum = Math.floor(Math.random() * 100) + 1;
+    const randomNum = Math.floor(Math.random() * 50) + 1;
     const finalPercentage = percentage + randomNum;
 
     if (finalPercentage <= 100) {
