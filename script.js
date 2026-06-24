@@ -114,7 +114,8 @@ function showQuestion() {
 /*function NextInQ_to_go() {
   currentQuestion++;*/
 
-function nextQuestion() {
+function git status
+nextQuestion() {
   currentQuestion++;
   if (currentQuestion < questions.length) {
     showQuestion();
