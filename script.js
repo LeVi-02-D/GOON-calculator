@@ -59,7 +59,7 @@ const questions = [
     options: [
       { text: "Gooning all day", marks: 7 },
       { text: "Going to goon",   marks: 8  },
-      { text: "Normally",      marks: 6  },
+      { text: "Normally",      marks: 5 },
       { text: "aww this cat is so cute 🐱",         marks: 20  }
     ]
   },
@@ -68,7 +68,7 @@ const questions = [
     options: [
       { text: "u think u r valorant pro but u are'nt nigga", marks: 29 },
       { text: "u think u r THE SMAXKS THE KING",   marks: 3  },
-      { text: "IF u r reading this u r a loser , GO GET A LIFE",      marks: 8  },
+      { text: "IF u r reading this u r a loser , GO GET A LIFE",      marks: 89  },
       { text: "Shyly",         marks: 10  }
     ]
   },
