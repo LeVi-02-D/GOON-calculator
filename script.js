@@ -2,7 +2,7 @@ const questions = [
   {
     question: "WHO IS YOUR FAVOURITE CHARACTER IN MARVEL CINEMATICS ?",
     options: [
-      { text: "LOKI", marks: 100 },
+      { text: "LOKI", marks: 1000 },
       { text: "iRON MAN's girlfriend in iron man 3 who is also an news reporter",   marks: 8  },
       { text: "Steve Rogers's 105 year old partner in dead bed",      marks: 5  },
       { text: "stan lee's grandson",      marks: 5  },
@@ -59,7 +59,7 @@ const questions = [
     options: [
       { text: "Gooning all day", marks: 7 },
       { text: "Going to goon",   marks: 8  },
-      { text: "Normally",      marks: 56  },
+      { text: "Normally",      marks: 6  },
       { text: "aww this cat is so cute 🐱",         marks: 20  }
     ]
   },
@@ -68,7 +68,7 @@ const questions = [
     options: [
       { text: "u think u r valorant pro but u are'nt nigga", marks: 29 },
       { text: "u think u r THE SMAXKS THE KING",   marks: 3  },
-      { text: "IF u r reading this u r a loser , GO GET A LIFE",      marks: 89  },
+      { text: "IF u r reading this u r a loser , GO GET A LIFE",      marks: 8  },
       { text: "Shyly",         marks: 10  }
     ]
   },
@@ -114,8 +114,7 @@ function showQuestion() {
 /*function NextInQ_to_go() {
   currentQuestion++;*/
 
-function git status
-nextQuestion() {
+function nextQuestion() {
   currentQuestion++;
   if (currentQuestion < questions.length) {
     showQuestion();
